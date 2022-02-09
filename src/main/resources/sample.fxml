@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="456.0" prefWidth="323.0">
+         <children>
+            <Button fx:id="show" layoutX="23.0" layoutY="25.0" mnemonicParsing="false" onAction="#showPic" text="show" />
+            <Button fx:id="plotProfile" layoutX="98.0" layoutY="25.0" mnemonicParsing="false" onAction="#plotProfileAct" text="ProfilePlot" />
+            <Button fx:id="contrast" layoutX="186.0" layoutY="25.0" mnemonicParsing="false" onAction="#contrastAct" text="Contrast" />
+            <Button layoutX="23.0" layoutY="80.0" mnemonicParsing="false" text="Button" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
